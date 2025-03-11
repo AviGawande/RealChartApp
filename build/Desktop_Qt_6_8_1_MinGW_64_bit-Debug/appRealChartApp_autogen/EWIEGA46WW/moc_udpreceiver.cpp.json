@@ -1,0 +1,44 @@
+{
+    "classes": [
+        {
+            "className": "UdpReceiver",
+            "lineNumber": 10,
+            "object": true,
+            "qualifiedClassName": "UdpReceiver",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "values",
+                            "type": "QList<double>"
+                        },
+                        {
+                            "name": "timestamp",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "dataReceived",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "processPendingDatagrams",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "udpreceiver.h",
+    "outputRevision": 68
+}

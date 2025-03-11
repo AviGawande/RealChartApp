@@ -1,0 +1,13 @@
+--bare
+-I
+D:/projects/qtcreator/RealChartApp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug
+-I
+C:/Qt/6.8.1/mingw_64/qml
+--resource
+D:/projects/qtcreator/RealChartApp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/qmake_RealChartApp.qrc
+--resource
+D:/projects/qtcreator/RealChartApp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/appRealChartApp_raw_qml_0.qrc
+D:/projects/qtcreator/RealChartApp/Main.qml
+D:/projects/qtcreator/RealChartApp/WaterfallChart.qml
+--json
+D:/projects/qtcreator/RealChartApp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appRealChartApp_qmllint.json

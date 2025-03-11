@@ -1,0 +1,14 @@
+-rootPath
+D:/projects/qtcreator/RealChartApp
+-cmake-output
+-output-file
+D:/projects/qtcreator/RealChartApp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/qml_imports/appRealChartApp_build.cmake
+-importPath
+D:/projects/qtcreator/RealChartApp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RealChartApp
+-importPath
+D:/projects/qtcreator/RealChartApp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.8.1/mingw_64/qml
+-qrcFiles
+D:/projects/qtcreator/RealChartApp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/qmake_RealChartApp.qrc
+D:/projects/qtcreator/RealChartApp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/appRealChartApp_raw_qml_0.qrc

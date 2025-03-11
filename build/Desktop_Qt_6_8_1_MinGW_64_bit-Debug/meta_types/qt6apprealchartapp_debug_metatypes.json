@@ -1,0 +1,110 @@
+[
+    {
+        "classes": [
+            {
+                "className": "DataModel",
+                "lineNumber": 8,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "startUdpReceiver",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "stopUdpReceiver",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "DataModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "newDataPoint",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "values",
+                                "type": "QList<double>"
+                            },
+                            {
+                                "name": "timestamp",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "handleUdpData",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "datamodel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "UdpReceiver",
+                "lineNumber": 10,
+                "object": true,
+                "qualifiedClassName": "UdpReceiver",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "values",
+                                "type": "QList<double>"
+                            },
+                            {
+                                "name": "timestamp",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "dataReceived",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 1,
+                        "name": "processPendingDatagrams",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "udpreceiver.h",
+        "outputRevision": 68
+    }
+]

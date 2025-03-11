@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/RealChartApp">
+    <file alias="qmldir">D:/projects/qtcreator/RealChartApp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RealChartApp/qmldir</file>
+  </qresource>
+</RCC>
+

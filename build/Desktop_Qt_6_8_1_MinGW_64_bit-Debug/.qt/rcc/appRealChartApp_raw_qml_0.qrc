@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/RealChartApp/">
+    <file alias="Main.qml">D:/projects/qtcreator/RealChartApp/Main.qml</file>
+    <file alias="WaterfallChart.qml">D:/projects/qtcreator/RealChartApp/WaterfallChart.qml</file>
+  </qresource>
+</RCC>
+

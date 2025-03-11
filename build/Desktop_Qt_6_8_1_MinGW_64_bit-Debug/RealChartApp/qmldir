@@ -1,0 +1,6 @@
+module RealChartApp
+typeinfo appRealChartApp.qmltypes
+prefer :/qt/qml/RealChartApp/
+Main 1.0 Main.qml
+WaterfallChart 1.0 WaterfallChart.qml
+
